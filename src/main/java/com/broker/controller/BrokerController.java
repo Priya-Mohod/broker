@@ -40,7 +40,7 @@ public class BrokerController {
 	@RequestMapping("/login")
 	public String redirectLogin() {
 
-		System.out.println("hello from login page");
+		System.out.println("hello from login page this is priya");
 		return "login";
 	}
  
