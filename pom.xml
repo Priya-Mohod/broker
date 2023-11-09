@@ -8,7 +8,6 @@
 		<version>3.0.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-<!--<packaging>war</packaging> creating war fileee-->
 	<groupId>com</groupId>
 	<artifactId>broker</artifactId>
 	<version>0.0.2</version>
