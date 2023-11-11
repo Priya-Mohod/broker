@@ -1,18 +1,15 @@
 package com.broker.modal;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+
+
+import javax.persistence.*;
 
 @Entity
 @Table(name = "stock_details")
 public class StockDetails {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy =GenerationType.IDENTITY)
 	@Column(name = "id")
 	private Long id;
 	
