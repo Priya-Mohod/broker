@@ -41,7 +41,7 @@ public class BrokerController {
 	public String redirectLogin() {
 
 		System.out.println("hello from login page this is priya");
-		return "login";
+		return "index";
 	}
  
 	/*application is starting with Login page */

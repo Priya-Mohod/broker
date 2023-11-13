@@ -72,6 +72,11 @@
 					<imageName>my-spring-boot-image</imageName>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>3.2.2</version>
+			</plugin>
 		</plugins>
 		<finalName>broker</finalName>
 	</build>
