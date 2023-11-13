@@ -73,6 +73,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>broker-aws-example</finalName>
+		<finalName>broker</finalName>
 	</build>
 </project>
