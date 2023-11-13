@@ -12,9 +12,8 @@
 	<groupId>com</groupId>
 	<artifactId>broker</artifactId>
 	<version>0.0.2</version>
+	<packaging>war</packaging>
 	<name>Broker</name>
-
-
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
