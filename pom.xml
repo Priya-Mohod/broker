@@ -62,6 +62,15 @@
 			<version>2.7.5</version>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+   	 <repository>
+        	<id>central</id>
+        	<name>ip-172-31-39-216.ap-south-1.compute.internal-releases</name>
+        	<url>http://13.233.197.232:8082/artifactory/libs-snapshot-local</url>
+    	 </repository>
+	</distributionManagement>
+	
 	<build>
 		<plugins>
 			<plugin>
